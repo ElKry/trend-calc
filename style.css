@@ -1,0 +1,95 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	padding: 50px 30px;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.container {
+	display: flex;
+	width: 745px;
+	box-sizing: border-box;
+}
+
+.container > div {
+	display: inline-flex;
+	padding: 25px 20px;
+	box-sizing: border-box;
+}
+
+div.form-wrap {
+	background-color: #f8f8f8;
+}
+
+div.info-wrap {
+	background-color: #eeeded;
+	align-items: center;
+	text-align: center;
+}
+
+div.info-block > div {
+	margin-bottom: 15px;
+}
+
+div.info-block > div.name {
+	font-weight: bold;
+}
+
+div.info-block > div.date {
+	font-size: 13px;
+}
+
+div.info-block > div.date span {
+	display: block;
+}
+
+div.info-block > div.pay {
+	font-size: 24px;
+}
+
+div.info-block > div.pay span {
+	font-weight: bold;
+}
+
+form .form-group {
+	margin-bottom: 15px;
+}
+
+form label {
+	display: block;
+	font-size: 11px;
+	color: #666;
+	margin-bottom: 7px
+}
+
+input, select, button.submit {
+	width: 330px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 12px 7px;
+	box-sizing: border-box;
+	border: 1px solid #c2c2c2;
+}
+
+button.submit {
+	border-color: #0366cb;
+	color: #fff;
+	background-color: #0366cb;
+	cursor: pointer;
+	font-weight: normal;
+}
+
+select {
+	padding-right: 40px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: 0.01px; 
+	text-overflow: '';
+	-ms-appearance: none;
+	appearance: none;
+	background: url(img/arrow.png) 300px center no-repeat;
+	cursor: pointer;
+}
