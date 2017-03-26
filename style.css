@@ -10,7 +10,6 @@ h1 {
 
 .container {
 	display: flex;
-	width: 745px;
 	box-sizing: border-box;
 }
 
@@ -18,6 +17,7 @@ h1 {
 	display: inline-flex;
 	padding: 25px 20px;
 	box-sizing: border-box;
+	width: 375px;
 }
 
 div.form-wrap {
@@ -28,6 +28,7 @@ div.info-wrap {
 	background-color: #eeeded;
 	align-items: center;
 	text-align: center;
+	padding: 0 40px;
 }
 
 div.info-block > div {

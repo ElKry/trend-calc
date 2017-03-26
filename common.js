@@ -276,5 +276,31 @@ var initializeForm = function (data, resp) {
 	});
 };
 
+//Генерация и перерисовка формы на основе полученных json данных
+/*load('https://api.trend-spb.ru/v2/installments/286/list/', function (data) {
+  var form = document.querySelector('form');
+  var selects = form.querySelectorAll('.form-group > select');
+  var programms = data.programms;
+
+  initializeSelect(programms, selects[0]);
+  initializeSelect(programms[0].programms, selects[1]);
+
+  var props = programms[0].programms[0].props;
+  for (var i = 0; i < props.length - 1; i++) {
+    createPropsElements(form, props, i);
+  }
+
+  load('https://api.trend-spb.ru/v2/installments/286/list/', function (resp) {
+    form.addEventListener('change', function () {
+      changeForm(resp, form, programms);
+    });
+
+    form.addEventListener('submit', function (evt) {
+      evt.preventDefault();
+    changeForm(resp, form, programms);
+    });
+  });
+});*/
+
 initializeForm(d, response);
 })();
